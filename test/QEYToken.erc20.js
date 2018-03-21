@@ -1,4 +1,4 @@
-const suite = require('../node_modules/token-test-suite/lib/suite');
+const suite = require('./token-test-suite');
 const QEYToken = artifacts.require('QEYToken');
 
 contract('QEYToken', function (accounts) {
